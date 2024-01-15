@@ -8,7 +8,12 @@ function App() {
   // const {loading}=useContext(AppContext)
   return (
     <div className="bg-black">
-      <Header></Header>
+      <div>
+        <Header></Header>
+        <Sidebar></Sidebar>
+
+      </div>
+      
       
 
     </div>

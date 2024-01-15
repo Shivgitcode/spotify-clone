@@ -3,7 +3,7 @@ import { home, logo, search } from '../../assets'
 
 export default function Header() {
   return (
-    <div>
+    <div className='bg-[#121212]'>
         <div className="flex flex-col items-start justify-between gap-3">
             <div className='w-full p'>
                 <img src={logo} alt="" />
